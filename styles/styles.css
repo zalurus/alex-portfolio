@@ -7,26 +7,26 @@ body {
 .header {
     width: 100%;
     height: 75px;
-    background-color: #191B1C;
+    padding-top: 15px;
+    
     font-size: 140%;
     color: #fff;
     font-weight: bolder;
     font-family: 'Courier New', Courier, monospace;
-    padding-top: 15px;
-    border-radius: 0px;
+    
+    background-color: #191B1C;
+
     display:flex;
+}
+
+a {
+    color: #fff;
 }
 
 /* title on the navbar. "Alex Whittet's Portfolio" */
 .title {
     padding-left: 5%;
-    padding-right: 0px;
     padding-top: 13px;
-}
-
-/* makes the buttons on the navbar highlighted when hovered over. */
-a:hover, a:active {
-    background-color: #B80D20;
 }
 
 /* home button on the navbar, takes the user to the homepage */
@@ -36,9 +36,11 @@ a:hover, a:active {
     width: 12%;
     height: 45px;
     margin-left: 4%;
+    padding: 15px 2%;
+
     background-color: #B80D20;
     color: white;
-    padding: 15px 2%;
+
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -49,15 +51,20 @@ a:hover, a:active {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 12%;
-    background-color: #880A18;
     height: 45px;
     margin-left: 4%;
-
-    color: white;
     padding: 15px 2%;
+
+    background-color: #880A18;
+    color: white;
+
     text-align: center;
     text-decoration: none;
     display: inline-block;
+}
+
+.design-button:hover {
+    background-color: #690a15
 }
 
 /* photography button, takes the user to the photography page */
@@ -67,37 +74,47 @@ a:hover, a:active {
     width: 12%;
     height: 45px;
     margin-left: 4%;
+    padding: 15px 2%;
+
     background-color: #880A18;
     color: white;
-    padding: 15px 2%;
+
     text-align: center;
     text-decoration: none;
     display: inline-block;
+}
+
+.photo-button:hover {
+    background-color: #690a15
 }
 
 /* red background of the website */
 .background {
     width: 100%;
     height: 150%;
+
     background-color:#B80D20 ;
 }
 
 /* dark red box for design work */
-.textbox1 {
-    display: flex;
-    background-color: #4E0309;
+.design-box {
     width: 90%;
     height: 500px;
     margin-bottom: 60px;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
+
+    background-color: #4E0309;
+
+    display: flex;
 }
 
 /* design image */
 .design_final {
     width: auto;
     height: 100%;
+
     object-fit: cover;
 }
 
@@ -111,27 +128,31 @@ a:hover, a:active {
 .text1 {
     margin-left: 20px;
     margin-right: 20px;
+
     color: #fff;
     font-family: 'Courier New', Courier, monospace;
     font-size: 70%;
 }
 
 /* dark red box for photography work */
-.textbox2 {
-    display: flex;
-    background-color: #4E0309;
+.photo-box {
     width: 90%;
     height: 500px;
     margin-bottom: 60px;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
+
+    background-color: #4E0309;    
+
+    display: flex;
 }
 
 /* photography image */
 .photo_final {
     width: auto;
     height: 100%;
+
     object-fit: cover;
 }
 
@@ -142,60 +163,57 @@ a:hover, a:active {
 
     width: auto;
     height: 100%;
-    object-fit: cover;
 }
 
 /* text box - photography */
 .text2 {
     margin-left: 20px;
     margin-right: 20px;
+    width: auto;
+    height: 100%;
+
     color: #fff;
     font-family: 'Courier New', Courier, monospace;
     font-size: 70%;
-
-    width: auto;
-    height: 100%;
-    object-fit: cover;
 }
 
 /* dark red box for about me */
 .textbox3 {
-    display: flex;
-    background-color: #4E0309;
     width: 90%;
     height: 500px;
     margin-bottom: 60px;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
+
+    background-color: #4E0309;
+
+    display: flex;
 }
 
 /* title - "About Me" */
 .title3 {
-    font-weight: bolder;
-    text-decoration: underline;
-
     width: auto;
     height: 100%;
-    object-fit: cover;
+
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
 /* text box - about me */
 .text3 {
     margin-left: 20px;
     margin-right: 20px;
+    width: auto;
+    height: 100%;
+
     color: #fff;
     font-family: 'Courier New', Courier, monospace;
     font-size: 70%;
-
-    width: auto;
-    height: 100%;
-    object-fit: cover;
 }
 
 /* footer - contains contact info */
 .footer {
-    background-color: #880A18;
     width: 100%;
     height: 60px;
     padding-top: 2%;
@@ -204,9 +222,10 @@ a:hover, a:active {
     font-family: 'Courier New', Courier, monospace;
     font-size: 150%;
 
+    background-color: #880A18;
+
     display: inline-flex;
     justify-content: center;
-    align-content: center;
 }
 
 
